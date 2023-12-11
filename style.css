@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel&family=EB+Garamond&display=swap');
+
+body {
+    font-family: 'Cinzel', sans-serif;
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    max-width: auto;
+    font-size: 1.2 em;
+}
+
+
+
+h1, h2, nav {
+    text-transform: uppercase;
+}
+
+header {
+    background-color: black;
+    color: white;
+    box-shadow: 1px 1px 100px rgb(255, 220, 149);
+}
+
+.logo {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 100px 0 25px;
+    padding: 20px;
+    background-size: cover;
+}
+
+.navbar {
+    display: inline;
+    margin: 0 auto;
+    /* margin-bottom: 20px; */
+}
+
+nav a {
+    color: rgb(255, 220, 149);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px;
+}
+
+main {
+    padding: 10px 100px;
+}
+
+
+h1 {
+    /* background-image: linear-gradient(to right, rgb(255, 220, 149), white, black, white, rgb(255, 210, 149)); */
+    box-shadow: 1px 3px 30px rgb(255, 220, 149);
+    /* padding: 20px 20px 20px 0; */
+    /* margin-bottom: 50px; */
+    letter-spacing: 8px;
+    font-size: 1.5em;
+    /* margin-top: 0.1em; */
+}
+
+h2 {
+    margin-top: 50px;
+    box-shadow: 1px 3px 10px rgb(255, 220, 149);
+    font-family: 'EB Garamond', serif;
+    font-weight: 100;
+    text-shadow: 1px 1px 5px white;
+    width: 100%;
+    color: white;
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, white, rgb(255, 220, 149), black, rgb(255, 220, 149), white);
+    padding: 0.5em;
+}
+
+h3, h4 {
+    font-size: 1.1em;
+    font-weight: 900;
+}
+
+h3 {
+    margin: 2em 0 0.2em 0;
+}
+
+h4 {
+    margin: 0 0 1.3em 0;
+
+}
+
+#home-hero {
+    background-image: url(images/guitars.jpg);
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+
+#home-hero h1 {
+    margin: 0;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(255, 220, 149);
+    padding: 10px;
+    background-color: rgb(255, 220, 149);
+    color: black;
+    font-size: 1.8em;
+}
+
+
+footer {
+    background-color: #111;
+    color: white;
+    padding: 50px 0;
+    width: 100%;
+    box-shadow: 1px 1px 50px rgb(255, 220, 149);
+    margin-top: 100px;
+}
+
+footer a {
+    color: rgb(255, 220, 149);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+p a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p a:hover {
+    color: gold;
+}
+
+#section_one {
+    display:inline;
+
+}
+#section_one p {
+    margin-left: 10%;
+}
+
+
+.photos img {
+    float: left;
+    max-width: 20%;
+    height: auto;
+    margin-right: 10px;
+}
+
+
+
+.resume-main {
+    text-align: left;
+    /* border-width: 3px solid white; */
+    max-width: 40%;
+    padding: 100px;
+    box-shadow: 1px 3px 10px rgb(255, 220, 149);
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.resume-h2 {
+    /* margin-top: 50px; */
+    box-shadow: 1px 3px 10px rgb(255, 220, 149);
+    font-family: 'EB Garamond', serif;
+    font-weight: 100;
+    text-shadow: 1px 1px 5px white;
+    width: 100%;
+    color: black;
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, white, rgb(255, 220, 149), rgb(255, 220, 100), black);
+    padding: 0.5em;
+    text-align: center;
+}
+
+
+#game-container {
+    background-image: linear-gradient(to right, rgb(164, 146, 101), rgb(232, 222, 199));
+    margin: auto;
+    width: 700px;
+}
+
+.portfolio-img {
+    box-shadow: 1px 3px 10px rgb(255, 220, 149);
+    display: block;
+    height: auto;
+    width: 120%;
+    margin: 50px auto;
+    padding: 3px
+}
+
+
+.navbar-links {
+    display: block;
+}
+
+.toggle {
+    display: none;
+}
+
+
+.col-sm-6 {
+    /* text-align: left; */
+    margin-top: 20px;
+}
+
+.col-sm-9 {
+    margin-left: 70%;
+}
+
+
+
+
+.image {
+    overflow:hidden;
+    box-shadow: 1px 3px 10px rgb(255, 220, 149);
+    margin: 20px auto;
+
+
+}
+
+.row {
+    padding: auto 100%;
+    width: 100%;
+    margin: 0;
+
+}
+
+
+@media (max-width: 767.98px) {
+    .navbar .toggle {
+        display: block;
+        text-align: right;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .navbar .navbar-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: black;
+        width: 100%;
+        text-align: center; /* Center the links */
+    }
+
+    .navbar.active .navbar-links {
+        display: block;
+    }
+
+    .navbar .navbar-links li {
+        text-align: center;
+        padding: 10px 0;
+        border-bottom: 1px solid white;
+    }
+
+    .navbar .navbar-links li:last-child {
+        border-bottom: none;
+    }
+
+    .navbar .navbar-links a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar .navbar-links a:hover {
+        color: gold;
+    }
+}
